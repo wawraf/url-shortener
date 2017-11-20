@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Backend Challenges | Free Code Camp</title>
+      <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+      <div class="container">
+         <h1>URL Shortener Microservice</h1>
+         <h3>Part 3 of Free Code Camp Backend Challenges</h3>
+      </div>
+     <div id="stories">
+       <h3>
+         User stories:
+       </h3>
+       <ul>
+         <li>I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.</li>
+         <li>If I pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead.</li>
+         <li>When I visit that shortened URL, it will redirect me to my original link.</li>
+       </ul>
+     </div>
+     <div id="example">
+       <h3>
+         Example:
+       </h3>
+       <ul>
+         <p>Passing parameter <span class = "bold">https://www.google.com</span> in the following way: <span class = "object">https://sulky-attraction.glitch.me/<span class = "bold">https://www.google.com</span></span> returns this result:
+         </p>
+         <p class = "object">
+           {"original_url":"https://www.google.com", "short_url":"https://sulky-attraction.glitch.me/????"}
+         </p>
+         <p>Then using address <span class = "bold">https://sulky-attraction.glitch.me/????</span> redirects you to <span class = "bold">https://www.google.com</span>
+         </p>
+       </ul>
+     </div>
+   </body>
+
+</html>

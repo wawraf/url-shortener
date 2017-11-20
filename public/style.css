@@ -1,0 +1,79 @@
+/****** Main Styling ******/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #222;
+	background-color: #ECF0F1;
+	text-align: center;
+}
+
+.container {
+	padding: 0;
+	margin-top: 40px;
+}
+
+.footer {
+	margin-top: 60px;
+}
+
+ol {
+	list-style-position: inside;
+}
+
+a {
+	color: #2574A9;
+}
+/****** Logo Div Styling ******/
+
+img {
+	margin: 20px auto 0 auto;
+	display: block;
+}
+
+/****** Listing ******/
+
+p {
+  font-weight: bold;
+}
+
+ul {
+	list-style-type: square;
+}
+
+li {
+  text-align: left;
+}
+
+div#stories, div#example {
+  border: 10px solid #ECD0D1;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+  width: 80%;
+}
+
+div#example {
+  padding-bottom: 15px;
+}
+
+div#example p {
+  text-align: left;
+  font-weight: normal;
+  margin-right: 20px;
+  margin-top: 0px; 
+  margin-bottom: 5px;
+  float: left;
+}
+
+span {
+  font-style: italic;
+}
+
+span.bold {
+    font-weight: bold;
+}
+
+.object {
+  background: #ECD0D1;
+}
