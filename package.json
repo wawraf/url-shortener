@@ -1,0 +1,21 @@
+{
+  "name": "fcc-url-shortener",
+  "description": "freeCodeCamp Back-end 3rd challenge",
+  "dependencies": {
+    "express": "^4.16.2",
+    "is-http-url": "^2.0.0",
+    "mongodb": "^2.2.33",
+    "randomatic": "^2.0.0"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "4.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://idontknow/todo.git"
+  }
+}
